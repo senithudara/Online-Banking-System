@@ -1,0 +1,336 @@
+html * {
+    font-family: Helvetica, Arial Rounded MT, sans-serif;
+}
+
+body {
+	background-image: url("http://localhost:8082/Bank_System/assets/images/bg3.jpg");
+	background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banklogo{
+  position: static;
+  margin-left: 46%;
+}
+
+.register1{
+	width: 500px;
+	height: 500px;
+	margin: 8% auto;
+	background: white;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.regForm{
+	
+	width: 400px;
+	position: absolute;	
+	margin-top: -30px;
+}
+
+.regtext{
+	
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: -20px;
+	margin-left: -100px;
+
+}
+
+.regtext2{
+	
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+.regtext1{
+	
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: -100px;
+
+}
+.regForm form{
+	
+	width:400px;
+	position: absolute;
+	top: 50px;
+	left: 100px;
+}
+
+form input{
+	
+	text-align: center;
+	width: 75%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border-radius: 5px;
+	background-color: #cfcfcf;
+	border: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	
+}
+
+.regForm select{
+	
+	text-align: center;
+	font-size: 15px;
+	font-weight: 500;
+	width: 77%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+.regForm1{
+	
+	width: 1000px;
+	height: 800px;
+	margin: 8% auto;
+	background: white;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+table{
+	margin-top: -65px;
+}
+.regForm1 form{
+	
+	transition: 0.5s;
+	align-content: center;
+	width:1000px;
+	position: relative;
+	top: 75px;
+	left: 130px;
+}
+.regtext2{
+	
+	font-size: 24px;
+	font-weight: 800;
+	padding-top: 50px;
+	margin-left: -100px;
+}
+
+.input1{
+	width: 300px;
+	margin-right:75px;
+}
+
+.regForm1 input{
+	
+	display: inline-block;
+	
+}
+
+::placeholder{
+	color: #777;
+}
+
+.submitbtn {
+    font-family: Helvetica, Arial Rounded MT, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #161263;
+    background-color: #c9da25;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-width: 0px;
+    border-radius: 7px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .submitbtn:hover {
+        transition: 0.3s;
+        background-color: #8d9c0e;
+        cursor: pointer;
+        font-size: 16.5px;
+    }
+
+.submitbtn1 {
+    font-family: Helvetica, Arial Rounded MT, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #161263;
+    background-color: #c9da25;
+    margin-top: 10px;
+    border-width: 0px;
+    border-radius: 7px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .submitbtn1:hover {
+        transition: 0.3s;
+        background-color: #8d9c0e;
+        cursor: pointer;
+        font-size: 16.5px;
+    }
+    
+ .submitbtn2 {
+    font-family: Helvetica, Arial Rounded MT, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #161263;
+    background-color: #c9da25;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-width: 0px;
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .submitbtn2:hover {
+        transition: 0.3s;
+        background-color: #8d9c0e;
+        cursor: pointer;
+        font-size: 16.5px;
+    }
+
+
+.logbox{
+	
+	color: black;
+	width: 500px;
+	height: 500px;
+	margin: 8% auto;
+	margin-top: 100px;
+	background: #fff;
+	border-radius: 5px;
+	position: relative;
+	margin-left: 110px;
+}
+
+.logbox form{
+	width: 400px;
+	position: absolute;
+	top: 100px;
+	left: 40px;
+}
+
+.logbox input{
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border: 1;
+	
+}
+
+.btns{
+	
+	width: 100%;
+	margin: 150px auto;
+	text-align: center;
+}
+
+.logbox a{
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.logtext{
+	
+	font-size: 24px;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: -20px;
+
+}
+
+.logtext1{
+	
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.lform{
+	margin-top: 20px;
+	
+	font-weight: 500;
+}
+
+
+.welcomebox{
+	width: 500px;
+	height: 500px;
+	margin-left: -4px;
+	border-radius: 5px;
+	position: relative;
+	color: white;
+	text-align: left;
+	padding-left: 40px;
+
+}
+
+.loginareabox{
+  display: inline-block;
+}
+
+.accexistsbox{
+	width: 500px;
+	height: 100%;
+	margin: 8% auto;
+	background: white;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.excistingaccalert{
+	width: 400px;
+	height: 200px;
+	margin: 8% auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.gotologin {
+    font-family: Helvetica, Arial Rounded MT, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #161263;
+    background-color: #c9da25;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-width: 0px;
+    border-radius: 7px;
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+    .gotologin:hover {
+        transition: 0.3s;
+        background-color: #8d9c0e;
+        cursor: pointer;
+        font-size: 16.5px;
+    }
+
+.loginform2{
+	
+	padding-top: 100px;
+}
+
